@@ -1,7 +1,7 @@
 # phish_phinder
 spell check the internet!
 ## About
-Use levenshtein (edit) distance and cosine similarity to "spell check" domains against the top domains in order to find typosquatting and similar misspellings. I wrote this a long time ago and found it recently. Check out the slides at [Phish Phinder](./Phish Phinder.pdf)
+Use levenshtein (edit) distance and cosine similarity to "spell check" domains against the top domains in order to find typosquatting and similar misspellings. I wrote this a long time ago and found it recently. Check out the slides at [Phish Phinder](./Phish_Phinder.pdf)
 ### How
 1. pull alexa top n list
 2. remove any of length less than x
