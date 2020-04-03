@@ -7,14 +7,14 @@ Use levenshtein (edit) distance and cosine similarity to "spell check" domains a
 2. remove any of length less than x
 3. check all new domains seen:
   1. does it have com/org at the end of the domain portion?
-    - if yes, report as possible phish
-    - maybe also do a length check
+    * if yes, report as possible phish
+    * maybe also do a length check
   2. is it longer than x-2?
-    - if no, ignore, no sense doing expensive operations for short names
+    * if no, ignore, no sense doing expensive operations for short names
   3. calculate levenshtein distance of domain.TLD and each alexa top n
-    - anything that is 1 or 2, report
+    * anything that is 1 or 2, report
   4. calculate cosine similarity of domain.TLD and each alexa top n
-    - if greater than 9, report
+    * if greater than 9, report
 ## Usage
 ```
 ./phish_phinder.py -a
